@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Moontime';
+    src: url(Moontime-Font/MoonTime-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #5d3d1e, #fdc798); /* Gradient from top to bottom */
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    border: solid;
+    align-items: center;
+    border: none;
+}
+
+.header-solid {
+    background-color: rgba(93, 61, 30, 1); /* Solid color with some transparency */
+}
+.header-lside {
+    height: 100px;
+    width: 1000px;
+    background-color: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.header-lside img {
+        height: 100px;
+    
+}
+
+.header-button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    opacity: 0.6;
+}
+
+.header-rside {
+    height: 100px;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graphics-scroll {
+    display: flex;
+    flex-direction: column; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    padding-top: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.graphics-scroll-img {
+    width: 500px; /* Set width of each image */
+    margin: 10px; /* Add spacing between images */
+    cursor: pointer;
+    transition: width,1s;
+}
+
+.graphics-scroll-img:hover {
+    display: flex;
+    width: 800px;
+    position: relative;
+    top: 100px;
+}
+
+.notice {
+    font-family: 'Moontime';
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: 0 0 10px yellow;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Graphics
+        </title>
+        <link rel="stylesheet" href="graphics.css">
+    </head>
+    <body>
+        <div class="header" id="header">
+            <div class="header-lside">
+                <img src="Web Pics/WEBSITE LOGO.png" alt="">
+            </div>
+
+            <div class="header-rside">
+                <a href="index.html">
+                    <button class="header-button">About</button>
+                </a>
+                <a href="graphics.html">
+                    <button class="header-button">Graphics</button>
+                </a>
+                <a href="websites.html">
+                    <button class="header-button">Websites</button>
+                </a>
+                <a href="literary.html">
+                    <button class="header-button">Literary</button>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener('scroll', function() {
+                var header = document.getElementById('header');
+                if (window.scrollY > 0) {
+                    header.classList.add('header-solid');
+                } else {
+                    header.classList.remove('header-solid');
+                }
+            });
+        </script>
+
+        <div class="graphics-scroll">
+            <div class="noticing">
+                Graphical Works
+            </div>
+            <img class="graphics-scroll-img" src="Graphics/1.jpg" alt="">
+            <img class="graphics-scroll-img"  src="Graphics/2.jpg" alt="">
+            <img class="graphics-scroll-img"  src="Graphics/3.jpg" alt="">
+            <img class="graphics-scroll-img"  src="Graphics/4.jpg" alt="">
+            <img class="graphics-scroll-img"  src="Graphics/5.jpg" alt="">
+            <img class="graphics-scroll-img"  src="Graphics/6.jpg" alt="">
+            <img class="graphics-scroll-img"  src="Graphics/7.jpg" alt="">
+        </div>
+    </body>
+</html>

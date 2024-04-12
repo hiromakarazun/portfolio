@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Digman Portfolio</Title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header" id="header">
+            <div class="header-lside">
+                <img src="Web Pics/WEBSITE LOGO.png" alt="">
+            </div>
+
+            <div class="header-rside">
+                <a href="index.html">
+                    <button class="header-button">About</button>
+                </a>
+                <a href="graphics.html">
+                    <button class="header-button">Graphics</button>
+                </a>
+                <a href="websites.html">
+                    <button class="header-button">Websites</button>
+                </a>
+                <a href="literary.html">
+                    <button class="header-button">Literary</button>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener('scroll', function() {
+                var header = document.getElementById('header');
+                if (window.scrollY > 0) {
+                    header.classList.add('header-solid');
+                } else {
+                    header.classList.remove('header-solid');
+                }
+            });
+        </script>
+
+        <div class="first-part">
+            <img src="Web Pics/background img.png" alt="">
+        </div>
+
+        <div class="second-part">
+            <div class="profile-pic">
+                <img src="Web Pics/Landing Page Photo.png" alt="">
+            </div>
+            <div class="label" >
+                <div class="name">Lance Christopher Digman</div>
+                <div class="job-title">Computer Engineer | Web Developer</div>
+            </div>
+        </div>
+
+        <div class="about-me">
+            About Me
+        </div>
+
+        <div class="description">
+            <div class="text-description">
+                Greetings, I'm Lance Christopher Digman, a forward-thinking graduate in Computer Engineering.
+                My journey is defined by a relentless pursuit of knowledge and a firm commitment to setting and
+                achieving ambitious goals. In today's rapidly evolving technological landscape, I firmly believe that
+                he key to success lies in adaptability and a thirst for continuous learning.
+            </div>
+
+            <div class="text-description">
+                During my academic years, I immersed myself in the fundamentals of programming, honing my
+                skills in languages such as C++ and Java. This solid foundation paved the way for my exploration
+                of other programming languages, including Python, JavaScript, CSS, and HTML. As I delved
+                deeper into the world of technology, I found myself drawn to diverse domains, from service desk
+                support to web development, where I gained invaluable experience and refined my expertise.
+            </div>
+
+            <div class="text-description">
+                Yet, my journey extends beyond the realm of coding. I possess a versatile skill set encompassing
+                graphic design, video editing, 3D modeling, and proficiency in electronics and microprocessor
+                utilization. Additionally, under the pen name HIRO, I delve into literary pursuits, crafting short
+                stories and poems that explore the depths of imagination and emotion.
+            </div>
+
+            <div class="text-description">
+                Since embarking on my professional path in March 2021, I've encountered and overcome
+                numerous challenges, each one contributing to my growth and development as a tech-savvy
+                professional. With a steadfast commitment to excellence, I embrace each opportunity to push the
+                boundaries of innovation and make meaningful contributions to the ever-expanding world 
+                of technology. As I continue on this journey, I remain dedicated to expanding my skill set,
+                embracing new technologies, and making a positive impact on the world around me.
+            </div>
+        </div>
+
+        <div class="my-works-block">
+            <div class="my-works-word">
+                My Works
+            </div>
+            <div class="my-works">
+                <a class="my-works-part" href="graphics.html">
+                    <div class="my-works-pic">
+                        <img src="Thumbnail/Graphics.jpg" alt="">
+                    </div>
+                    <div class="my-works-title">
+                        Graphics
+                    </div>
+                </a>
+                <a class="my-works-part" href="websites.html">
+                    <div class="my-works-pic">
+                        <img src="Thumbnail/Websites.jpg" alt="">
+                    </div>
+                    <div class="my-works-title">
+                        Websites
+                    </div>
+                </a>
+                <a class="my-works-part" href="literary.html">
+                    <div class="my-works-pic">
+                        <img src="Thumbnail/Literary.jpg" alt="">
+                    </div>
+                    <div class="my-works-title">
+                        Literary
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>

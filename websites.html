@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Websites
+        </title>
+        <link rel="stylesheet" href="websites.css">
+    </head>
+    <body>
+        <div class="header" id="header">
+            <div class="header-lside">
+                <img src="Web Pics/WEBSITE LOGO.png" alt="">
+            </div>
+
+            <div class="header-rside">
+                <a href="index.html">
+                    <button class="header-button">About</button>
+                </a>
+                <a href="graphics.html">
+                    <button class="header-button">Graphics</button>
+                </a>
+                <a href="websites.html">
+                    <button class="header-button">Websites</button>
+                </a>
+                <a href="literary.html">
+                    <button class="header-button">Literary</button>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener('scroll', function() {
+                var header = document.getElementById('header');
+                if (window.scrollY > 0) {
+                    header.classList.add('header-solid');
+                } else {
+                    header.classList.remove('header-solid');
+                }
+            });
+        </script>
+
+        <div class="websites-scroll">
+            <div class="noticing">
+                Websites Worked
+            </div>
+            <div class="notice">
+                NOTE: YOU CAN CLICK ON THE PICTURE TO BE ROUTED IN THE WEBSITE.
+            </div>
+            <a href="index.html">
+                <img class="websites-scroll-img" src="Websites/3.png" alt="">
+            </a>
+            <a href="https://bit.ly/Digman_Youtube">
+                <img class="websites-scroll-img" src="Websites/1.png" alt="">
+            </a>
+            <a href="https://bit.ly/Digman-FacebookTemplate">
+                <img class="websites-scroll-img" src="Websites/2.png" alt="">
+            </a>
+        </div>
+    </body>
+</html>
