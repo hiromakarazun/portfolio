@@ -3,6 +3,8 @@ body {
     background-image: linear-gradient(to bottom, #5d3d1e, #fdc798); /* Gradient from top to bottom */
     align-items: center;
     justify-content: center;
+    background-image: url(background-img.jpg);
+    background-size: cover;
 }
 
 .header {
@@ -24,7 +26,7 @@ body {
 }
 
 .header-solid {
-    background-color: rgba(93, 61, 30, 1); /* Solid color with some transparency */
+    background-color: rgba(93, 61, 30, 0.7); /* Solid color with some transparency */
 }
 .header-lside {
     height: 100px;
