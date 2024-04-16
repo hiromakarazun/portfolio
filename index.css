@@ -129,10 +129,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 50px;
     line-height: 1.5;
+    color: white;
 }
 
 .description {
     padding-bottom: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 
 .my-works-block {
