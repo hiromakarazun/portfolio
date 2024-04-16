@@ -8,6 +8,8 @@ body {
     background-image: linear-gradient(to bottom, #5d3d1e, #fdc798); /* Gradient from top to bottom */
     align-items: center;
     justify-content: center;
+    background-image: url(background-img.jpg);
+    background-size: cover;
 }
 
 .header {
@@ -29,7 +31,7 @@ body {
 }
 
 .header-solid {
-    background-color: #5d3d1e; /* Solid color with some transparency */
+    background-color: hsla(30, 51%, 24%, 0.7); /* Solid color with some transparency */
 }
 .header-lside {
     height: 100px;
