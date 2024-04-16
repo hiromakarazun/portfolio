@@ -69,6 +69,10 @@ body {
     justify-content: space-between;
 }
 
+.first-part-block {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .first-part {
     display: flex;
     justify-content: center;
@@ -90,6 +94,8 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .profile-pic {
@@ -105,10 +111,12 @@ body {
 .name {
     font-size: 50px;
     padding-bottom: 10px;
+    color: white;
 }
 
 .job-title {
     font-size: 20px;
+    color: white;
 }
 
 .about-me {
@@ -118,6 +126,8 @@ body {
     padding-top: 50px;
     font-size: 30px;
     padding-bottom: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .text-description {
@@ -136,7 +146,6 @@ body {
     padding-bottom: 50px;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
 }
 
 .my-works-block {
@@ -147,6 +156,7 @@ body {
     padding-right: 360px;
     padding-left: 360px;
     text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .my-works-word {
@@ -157,6 +167,7 @@ body {
     font-size: 30px;
     padding-bottom: 50px;
     text-decoration: none;
+    color: white;
 }
 
 .my-works {
@@ -167,6 +178,7 @@ body {
     justify-content: center;
     text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 
 .my-works-pic  {
@@ -192,6 +204,7 @@ body {
     padding-bottom: 50px;
     text-decoration: none; /* Remove underline */
     color: black;
+    color: white;
 }
 
 .my-works-part {
