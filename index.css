@@ -1,6 +1,5 @@
 body {
     width: 100%;
-    background-image: linear-gradient(to bottom, #5d3d1e, #fdc798); /* Gradient from top to bottom */
     align-items: center;
     justify-content: center;
     background-image: url(background-img.jpg);
