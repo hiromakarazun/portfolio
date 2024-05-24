@@ -4,6 +4,7 @@ body {
     justify-content: center;
     background-image: url(background-img.jpg);
     background-size: cover;
+    background-color: transparent;
 }
 
 .header {
